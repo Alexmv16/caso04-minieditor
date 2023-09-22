@@ -1,7 +1,61 @@
-/*
- * Empty Stylesheet file.
- */
+.root {
+    -fx-background-color: #E5F4E3; /* Color de fondo principal (verde claro) */
+}
 
-.mainFxmlClass {
 
+/* Estilo para botones */
+.button {
+    -fx-background-color: #4CAF50; /* Color de fondo verde */
+    -fx-text-fill: white; /* Color del texto en blanco */
+    -fx-font-size: 12px;
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Color de fondo verde más oscuro al pasar el mouse */
+}
+
+/* Estilo para etiquetas de texto */
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333; /* Color de texto oscuro */
+}
+
+/* Estilo para títulos */
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4CAF50; /* Color verde */
+}
+
+/* Estilo para cajas de texto */
+.text-field {
+    -fx-font-size: 14px;
+    -fx-background-color: #f9f9f9; /* Color de fondo del campo de texto */
+}
+
+/* Estilo para áreas de texto */
+.text-area {
+    -fx-font-size: 14px;
+    -fx-background-color: #f9f9f9; /* Color de fondo del área de texto */
+}
+
+/* Estilo para paneles */
+.panel {
+    -fx-background-color: #fff; /* Color de fondo blanco */
+    -fx-border-color: #4CAF50; /* Color del borde verde */
+    -fx-border-width: 2px;
+}
+
+/* Estilo para la barra de menú */
+.menu-bar {
+    -fx-background-color: #4CAF50; /* Color de fondo de la barra de menú verde */
+}
+
+.menu-bar .menu-item {
+    -fx-text-fill: white; /* Color del texto en la barra de menú en blanco */
+}
+
+/* Estilo para la barra de progreso */
+.progress-bar {
+    -fx-accent: #4CAF50; /* Color de la barra de progreso verde */
 }

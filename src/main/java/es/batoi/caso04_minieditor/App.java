@@ -1,15 +1,12 @@
 package es.batoi.caso04_minieditor;
 
-import javafx.application.Application;
-
 import java.io.IOException;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
-
-import java.io.IOException;
 
 /**
  * JavaFX App
@@ -22,9 +19,8 @@ public class App extends Application {
     @Override
     public void start(Stage primaryStage) {
         this.escenario = primaryStage;
-        this.escenario.setTitle("MINI EDITOR DE TEXTOS");
+        this.escenario.setTitle("CUTRE EDITOR DE TEXTOS");
         try {
-            
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(App.class.getResource("appvista.fxml"));
             escena = (AnchorPane) loader.load();
